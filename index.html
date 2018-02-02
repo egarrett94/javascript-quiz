@@ -2,9 +2,32 @@
 <html>
 <head>
   <title>JavaScript Quiz</title>
-  <script src="/js/index.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+ <script src="js/index.js" type="text/javascript"></script>
 </head>
+
+
 <body>
-  <h1>Hello world!</h1>
+
+  <h1>Welcome to the Mythology Quiz</h1>
+
+  <div class="container"> 
+  	<div class="answers">
+  		<form id="q1">
+  			<p id='questionInput'></p>
+  			<input class="questions" id="a1" type="radio" name="quiz"/><label for="a1" class="questions" ></label>
+  			<br>
+  			<input class="questions" id="a2" type="radio" name="quiz"/><label for="a2" class="questions" ></label>
+  			<br>
+  			<input class="questions" id="a3" type="radio" name="quiz"/><label for="a3" class="questions" ></label>
+  			<br>
+  			<input class="questions" id="a4" type="radio" name="quiz"/><label for="a4" class="questions" ></label>
+  		</form>
+  	</div>
+  	<button type="button" id="next">NEXT</button>
+</div>
+ 
 </body>
 </html>
